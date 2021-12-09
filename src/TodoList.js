@@ -35,8 +35,7 @@ export default function TodoList(props) {
     return (
         <ul>
             {todolist.map((todo, index) =>
-                <li
-                    key={index}
+                <li key={index}
                     className='todoo'
                 >
                     <strong>  {index}</strong>
